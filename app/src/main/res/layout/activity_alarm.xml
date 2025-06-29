@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:timePickerMode="spinner"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/setAlarmButton"
+        android:layout_width="131dp"
+        android:layout_height="64dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/set_alarm" />
+
+    <Button
+        android:id="@+id/cancelAlarmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/cancel_alarm" />
+
+    <Button
+        android:id="@+id/editAlarmButton"
+        android:layout_width="130dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/edit_alarm" />
+
+    <Button
+        android:id="@+id/noAlarmButton"
+        android:layout_width="160dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/no_alarm" />
+
+</LinearLayout>
